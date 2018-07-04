@@ -9,7 +9,7 @@ try:
         commands = (
             """
             CREATE TABLE IF NOT EXISTS users(id SERIAL PRIMARY KEY,email VARCHAR NOT NULL UNIQUE,
-            phone_number INT NOT NULL,username VARCHAR NOT NULL UNIQUE, password VARCHAR NOT NULL)""",
+            phone_number VARCHAR NOT NULL,username VARCHAR NOT NULL UNIQUE, password VARCHAR NOT NULL)""",
             """CREATE TABLE IF NOT EXISTS 
              revoked_tokens(id SERIAL PRIMARY KEY, jti VARCHAR(256) )""")
         cur = conn.cursor()
