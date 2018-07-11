@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "email": "alovega@gmail.com",
+        "phone_number": "254717316934",
+        "username": "nyangi",
+        "password": "$pbkdf2-sha256$29000$BECIEcL4n5MyBiBESMmZUw$tDy7gjJM5DljOW//ACTpl7HBR9wICyqdpzEdPFdIo.s"
+    },
+    {
+        "id": 2,
+        "email": "alovega@yahoo.com",
+        "phone_number": "+254751281732",
+        "username": "alwa",
+        "password": "$pbkdf2-sha256$29000$iVFKyZlzLkWIMaZ0zlmL0Q$hKA2yDKxsToZQTtyk17vwblSOK8SsPx2B1htkg4lH9M"
+    },
+    {
+        "id": 17,
+        "email": "amanda@yahoo.com",
+        "phone_number": "0717263499",
+        "username": "amanda",
+        "password": "$pbkdf2-sha256$29000$AkCoVSrlXGstpRTCmJPyXg$Ch.idMcWnmdKD3DNwDEYDaG1hOvvQZf00mqlo054SGk"
+    },
+    {
+        "id": 18,
+        "email": "linet@gmail.com",
+        "phone_number": "0717263499",
+        "username": "giggz",
+        "password": "$pbkdf2-sha256$29000$TkmpNeZca63VmlMKQSilNA$x.TXNKTLf3nbR2bX24Iyzgty0tPrKxYeYq4EyMUzKzU"
+    }
+]
