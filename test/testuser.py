@@ -8,7 +8,7 @@ class TestUserModel(unittest.TestCase):
     def setUp(self):
             try:
                 self.connection = psycopg2.connect(host='localhost', dbname='test_db', user='postgres',
-                                                    password='LUG4Z1V4', port=5433)
+                                                    password='LUG4Z1V4', port=5432)
             except:
                 print ("Unable to connect to the database")
 
@@ -31,9 +31,10 @@ class TestUserModel(unittest.TestCase):
 
 
     def test_user_registration_with_empty_username(self):
-        request = {"email": "alovegakevin@gmail.com", "username": "", "password": "1234"}
+        request = {"email": "alovegakevin@gmail.com","phone_number":"", "username": "", "password": "1234"}
         res = self.client.post ("/user/register", json=request)
-        self.assertEqual (res.status_code, 404)
+        print (res)
+        self.assertEqual (res.response,{"message":"username not valid"})
 
     def test_user_registration_with_empty_password(self):
         request = {"email": "alovegakevin@gmail.com", "username": "kevin", "password": ""}
@@ -55,7 +56,7 @@ class TestUserModel(unittest.TestCase):
         res = self.client.post ("/user/login", json=request)
         self.assertEqual (res.status_code, 404)
 
-    s
+
 
 
 if __name__ == '__main__':
