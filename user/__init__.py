@@ -12,4 +12,4 @@ jwt = JWTManager(app)
 
 api.add_resource(UserRegister, '/user/register', endpoint='userregister')
 api.add_resource(UserLogin, '/user/login', endpoint='userlogin')
-api.add_resource(HelloWorld, '/',endpoint='start')
+api.add_resource(HelloWorld, '/')
