@@ -1,3 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 /venv/
 /.idea/
+venv/
+user/__pycache__
+instance/__pycache__
+test/__pycache__
+.idea
+.idea/
+
