@@ -23,4 +23,4 @@ urllib2-file==0.2.1
 urllib3==1.23
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
