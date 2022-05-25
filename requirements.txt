@@ -14,7 +14,7 @@ MarkupSafe==1.0
 passlib==1.7.1
 pipenv==2018.7.1
 psycopg2==2.7.5
-PyJWT==1.6.4
+PyJWT==2.4.0
 pytz==2018.5
 requests==2.19.1
 schema==0.6.8
